@@ -3,3 +3,4 @@ plugins {
 }
 rootProject.name = "reguard"
 include("core")
+include("map-script")

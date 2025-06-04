@@ -1,0 +1,11 @@
+package org.cubewhy.reguard.script.validate
+
+enum class ErrorType {
+    DUPLICATE_CLASS,
+    DUPLICATE_OBFUSCATED_CLASS,
+    DUPLICATE_METHOD,
+    DUPLICATE_OBFUSCATED_METHOD,
+    DUPLICATE_FIELD,
+    DUPLICATE_OBFUSCATED_FIELD,
+    DUPLICATE_VERSION
+}
