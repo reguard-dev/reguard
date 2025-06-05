@@ -9,8 +9,13 @@ repositories {
     mavenCentral()
 }
 
+
 dependencies {
     testImplementation(kotlin("test"))
+}
+
+tasks.withType<Jar>  {
+    enabled = false
 }
 
 tasks.test {
